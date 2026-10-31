@@ -7,7 +7,7 @@ import (
 	"strings"
 	"testing"
 
-	plugin "github.com/xethlyx/traefik-real-ip"
+	plugin "github.com/innotekservices/traefik-plugin-real-ip"
 )
 
 func TestNew(t *testing.T) {
