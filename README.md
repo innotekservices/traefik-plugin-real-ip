@@ -16,8 +16,8 @@ pilot:
 experimental:
   plugins:
     traefik-real-ip:
-      modulename: github.com/xethlyx/traefik-real-ip
-      version: v1.0.4
+      modulename: github.com/innotekservices/traefik-plugin-real-ip
+      version: v1.0.8
 ```
 
 ### Dynamic configuration
@@ -78,8 +78,8 @@ spec:
             - --entrypoints.web.Address=:80
             - --providers.kubernetescrd
             - --pilot.token={YOUR_PILOT_TOKEN}
-            - --experimental.plugins.traefik-real-ip.modulename=github.com/xethlyx/traefik-real-ip
-            - --experimental.plugins.traefik-real-ip.version=v1.0.4
+            - --experimental.plugins.traefik-real-ip.modulename=github.com/innotekservices/traefik-plugin-real-ip
+            - --experimental.plugins.traefik-real-ip.version=v1.0.8
           ports:
             - name: web
               containerPort: 80
