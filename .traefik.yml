@@ -1,6 +1,6 @@
 displayName: Traefik Real IP
 type: middleware
-import: github.com/xethlyx/traefik-real-ip
+import: github.com/innotekservices/traefik-plugin-real-ip
 
 summary: Personal fork
 
