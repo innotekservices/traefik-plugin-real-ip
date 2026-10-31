@@ -1,4 +1,4 @@
-package traefik_real_ip_test
+package traefik_plugin_real_ip_test
 
 import (
 	"context"
